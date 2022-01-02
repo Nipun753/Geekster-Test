@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Test 02-01-22</title>
+    </head>
+    <body style= "background-image: url(https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
+        <br>
+        <br>
+        <h1 style="color: white;" align="center">Required Details</h1>
+        <br>
+        <br>
+        <form  style="margin-left: 550px;color: white;" >
+            <span>Name*</span> <span style="margin-left: 204px;">Email* </span><br>
+             <input style="width: 200px; height: 30px;;" type="text" placeholder="Enter full Name" name="Name" id="Name" required> <input style="margin-left: 50px; width: 200px; height: 30px;" type="email" name="Email" placeholder ="Enter email" id="Email" required>
+            <br/>
+            <br/>
+             <span>Select Gender*</span> <br>
+             <input type="radio" name="Gender" > <span>Male</span>  <input style="margin-left: 120px;" type="radio" name="Gender" > <span>Female</span> <input style="margin-left: 120px;" type="radio" name="Gender" > <span>Other</span>
+             <br/>
+             <br/>
+             <span>Phone*</span> <span style="margin-left: 200px;">Highest Qualification* </span><br>
+             <input style="width: 200px;height: 30px;" type="Number" id="Phone" name="Phonenumber" placeholder="Number" required min="0000000000" maxlength="10"> <input style="margin-left: 50px; width: 200px;height: 30px;" type="text" name="Qualification" placeholder ="Degree" id="Qualification" required>
+             <br/>
+             <br/>
+             <span>Year of completion*</span> <span style="margin-left: 120px;">Persentage* </span><br>
+             <input style="width: 200px;height: 30px;" type="Number" name="Year" id="Year" placeholder="Year" required> <input style="margin-left: 50px; width: 200px;height: 30px;" type="Number" name="Persentage" placeholder ="Percentage" required min="0.0" max="100.0" id="Percentage">
+             <br/>
+             <br/>
+             <span>Password*</span> <span style="margin-left: 180px;">Programing Skils* </span><br>
+             <input style="width: 200px;height: 30px;" type="password" name="Password" id="Password" placeholder="Password" required > <select style="width: 200px; margin-left: 50px; height: 30px;" name="Skils" id="Skills" required><option value="basic">Basic</option> <option value="Indermediate">Intermediate</option> <option value="Advance">Advance</option>  </select>
+             <br/>
+             <br/>
+             <input type="checkbox" name="Checkbos"> <span>By signing up, you agree to the Terms and Conditions.</span>
+             <br/>
+             <br/>
+             <button style="background-color: aqua; width: 100px; border-radius: 20px; height: 50px;" onclick=addData()>Submit</button>
+            </form>
+        <script>
+       
+           function addData(){
+              
+               var Name =document.getElementById('Name').value
+               var Email=document.getElementById('Email').value
+               var Phone=document.getElementById('Phone').value
+               var Year=document.getElementById('Year').value
+               var Qualification=document.getElementById('Qualification').value
+               var Password=document.getElementById('Password').value
+               var Skils=document.getElementById('Skills').value
+               console.log("Name : " + Name)
+               console.log("Email : " +Email)
+               console.log("Phone : "+ Phone)
+               console.log("Password : "+ Password)
+               console.log("Skills : " +Skils)
+               console.log("Year : "+ Year)
+               console.log("Qualification : "+  Qualification)
+           }
+        </script> 
+    </body>
+</html>
