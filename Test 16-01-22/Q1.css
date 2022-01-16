@@ -44,7 +44,9 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
-
+.box:hover {
+  background-color: #28282b;
+}
 .info {
   font-size: 22px;
 }
