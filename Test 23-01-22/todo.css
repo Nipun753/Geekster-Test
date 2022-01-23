@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-color: rgba(71, 187, 255, 0.637);
+  color: white;
+}
+header {
+  font-size: 40px;
+}
+header,
+form {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color: rgba(255, 145, 71, 0.726);
+  background: white;
+  cursor: pointer;
+}
+form button:hover {
+  color: white;
+  background: rgba(255, 145, 71, 0.726);
+  cursor: pointer;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo li {
+  flex: 1;
+}
+.trash-btn,
+.cmp-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.cmp-btn {
+  background: rgb(65, 214, 65);
+}
+.todo-item {
+  padding: 1rem;
+}
+.fa-check,
+.fa-trash {
+  pointer-events: none;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+img {
+  border-radius: 50%;
+  position: absolute;
+  height: 200px;
+  left: 100px;
+  top: 230px;
+}
