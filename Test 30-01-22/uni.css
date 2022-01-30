@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: sticky;
+  top: 10px;
+}
+#Country_name {
+  height: 40px;
+  font-size: 15px;
+  margin: 3px;
+  width: 400px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+#contanier {
+  margin: 10px;
+  padding: 5px;
+}
+.Search {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: turquoise;
+  color: white;
+  cursor: pointer;
+}
