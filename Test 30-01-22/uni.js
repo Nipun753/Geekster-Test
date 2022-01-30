@@ -13,7 +13,7 @@ function submitForm(geek) {
 function search_Uni(element){
   var counrty_name=element.value;
   //new_counrty_name=counrty_name.replaceAll(" ", "") + ""
-console.log(new_counrty_name)
+//console.log(new_counrty_name)
   const url=`http://universities.hipolabs.com/search?country=${counrty_name}`
   fetch(url).then((some)=>some.json())
   .then((data)=>{
