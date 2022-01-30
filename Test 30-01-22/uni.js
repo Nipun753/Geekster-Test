@@ -24,6 +24,5 @@ function search_Uni(element){
           div2.innerText=`${i+1}  ${data[i].name}`;
           div.appendChild(div2);
       }
-  })
-  counrty_name.value=""
+  }).catch((err)=>alert(err))
 }
