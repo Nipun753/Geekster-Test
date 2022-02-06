@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+button,
+i {
+  cursor: pointer;
+}
+* {
+  margin: 0%;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  font-size: 20px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .left {
+  margin-left: 50px;
+}
+.left img {
+  width: 50px;
+}
+nav .right {
+  margin-right: 50px;
+}
+.right span {
+  margin-left: 20px;
+}
+.homeimg {
+  height: 700px;
+
+  background-image: url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.homeimg h1 {
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 200px;
+  font-size: 40px;
+  align-items: center;
+}
+.blop_feed {
+  margin: 10px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 20px;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: silver;
+}
+.container h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container span {
+  font-size: 25px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container button {
+  margin-left: 150px;
+  width: 100px;
+}
+#formfeed {
+  background-color: lavender;
+  width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#formfeed input {
+  width: 580px;
+  display: block;
+}
+#formfeed textarea {
+  width: 580px;
+}
+label,
+input,
+button,
+textarea {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+#dis {
+  height: 200px;
+}
+.form {
+  background-color: antiquewhite;
+}
+.form h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+#formfeed button {
+  height: 40px;
+  width: 600px;
+  background-color: thistle;
+  font-size: 20px;
+}
+footer {
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+
+footer h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+footer p {
+  text-align: center;
+  font-size: 40px;
+}
+i {
+  margin: 40px;
+}
+
+footer,
+span {
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #formfeed {
+    width: 400px;
+  }
+  #formfeed input {
+    width: 380px;
+    display: block;
+  }
+  #formfeed textarea {
+    width: 380px;
+  }
+  #formfeed button {
+    height: 40px;
+    width: 380px;
+    background-color: thistle;
+    font-size: 20px;
+  }
+  .homeimg h1 {
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 60px;
+    font-size: 30px;
+    align-items: center;
+  }
+}
